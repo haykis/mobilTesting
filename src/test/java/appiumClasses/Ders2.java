@@ -31,6 +31,7 @@ public class Ders2 {
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         AndroidDriver<WebElement> driver = new AndroidDriver<>(url, desiredCapabilities);
         driver.get("https://www.amazon.com/");
+        Thread.sleep(3000);
 
 //        Set contex=driver.getContextHandles();
 //        System.out.println("contex = " + contex);
